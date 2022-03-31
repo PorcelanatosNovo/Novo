@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -14,3 +18,31 @@ a {
 * {
   box-sizing: border-box;
 }
+.whatsapp{
+  position: fixed;
+  left: 2rem;
+  bottom: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem;
+  background: rgba(6, 156, 84, 0);
+  border-radius: 4rem;
+  z-index: 10000;
+  transition: 0.3s;
+  font-size: 3rem;
+  color: #fff;
+  cursor: pointer;
+  background: #25D366;
+  transition: all .5s ease;
+}
+.whatsapp:hover{
+  background: darken($color: #25D366, $amount: 10%);
+  color: #f6f6f6;
+}
+.transparency{
+  height: 560px; width: 100%; z-index: -10; overflow: hidden}
+  
+  .map-container-2 {
+        height: 500px;
+      }
