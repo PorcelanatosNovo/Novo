@@ -1,6 +1,6 @@
 import React from 'react'
 import Us from '../components/Us'
-import Buttons from '../components/helpers/buttons'
+import Buttons from '../components/helpers/Buttons'
 
 function About() {
   return (
