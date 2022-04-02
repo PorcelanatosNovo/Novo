@@ -29,7 +29,7 @@ function Hero() {
   <div className="container mx-auto xl:px-32">
     <div className="grid lg:grid-cols-2 gap-12 items-center">
       <div className="mt-12 lg:mt-0">
-        <h1 className="leading-[3.3rem] text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">nuevos <br /><span className="text-red-600">Porcelanatos</span> <br /> <span className='text-3xl font-bold mb-20'>La mejor opción</span></h1>
+        <h1 className="leading-[3.3rem] text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12"><span className="text-red-600">nuevos</span> <br />Porcelanatos <br /> <span className='text-3xl font-bold mb-20'>La mejor opción</span></h1>
         <a className="inline-block px-7 py-3 mr-2 bg-red-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light" href="https://walink.co/087548" target='_blank' rel='noopener noreferrer' role="button">Consultar</a>
         <a className="inline-block px-7 py-3 bg-transparent text-red-600 font-medium text-sm leading-snug uppercase rounded hover:text-red-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light" href="https://ceramicasnet.mercadoshops.com.ar" target='_blank' rel='noopener noreferrer'  role="button">Tienda online</a>
       </div>

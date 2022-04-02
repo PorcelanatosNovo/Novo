@@ -5,7 +5,7 @@ import Buttons from '../components/helpers/Buttons'
 function About() {
   return (
     <div className='flex justify-center align-center flex-col	text-center	'>
-      <h1 className='text-5xl font-bold tracking-tight leading-tight mt-12 mb-6 '>nuevos <span className='text-red-600'>Porcelantos</span></h1>
+      <h1 className='text-5xl font-bold tracking-tight leading-tight mt-12 mb-6 '><span className='text-red-600'>nuevos</span> Porcelanatos</h1>
       <Us />
       <Buttons />
     </div>
