@@ -1,8 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import Productos from '../components/Productos'
 import Category from '../components/Category'
-import Buttons from '../components/helpers/buttons'
+import Buttons from '../components/helpers/Buttons'
 function Products() {
   return (
   <div>
