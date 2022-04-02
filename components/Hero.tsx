@@ -25,7 +25,7 @@ function Hero() {
   ></path>
 </svg>
 
-<div className="px-6 py-12 md:px-12 text-gray-800 text-center lg:text-left">
+<div className="px-6 lg:py-12 sm:py-6 md:px-12 text-gray-800 text-center lg:text-left">
   <div className="container mx-auto xl:px-32">
     <div className="grid lg:grid-cols-2 gap-12 items-center">
       <div className="mt-12 lg:mt-0">
