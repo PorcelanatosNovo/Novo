@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function Choose() {
   return (
@@ -6,12 +7,14 @@ function Choose() {
     <div className="block rounded-lg shadow-lg bg-white">
       <div className="flex flex-wrap items-center">
         <div className="grow-0 shrink-0 basis-auto block w-full lg:flex lg:w-6/12 xl:w-4/12">
-          <img src="./figure.png" alt="Trendy Pants and Shoes"
+          <Image src="/figure.png" alt="Trendy Pants and Shoes"
+          width={400}
+          height={350}
             className="w-full max-h-[100rem] rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" />
         </div>
         <div className="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
           <div className="px-6 py-12 md:px-12">
-            <h2 className="text-3xl font-bold mb-6 pb-2">Visita nuestra Tienda Web</h2>
+            <a href="#" rel='noopener noreferrer' target='_blank'><h2 className="text-3xl font-bold mb-6 pb-2">Visita nuestra <span className='uppercase text-red-600'>Tienda Web</span></h2></a>
             <p className="text-gray-500 mb-6 pb-2">
               Comprá y consulta desde la comodidad de tu casa, en un solo click.
             </p>
@@ -77,11 +80,11 @@ function Choose() {
                 </p>
               </div>
             </div>
-            <button type="button"
-              className="inline-block px-7 py-3 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+            <a href='https://ceramicasnet.mercadoshops.com.ar' target='_blank' rel='noopener noreferrer'
+              className="inline-block px-7 py-3 bg-red-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out"
               data-mdb-ripple="true" data-mdb-ripple-color="light">
               TIENDA WEB
-            </button>
+            </a>
           </div>
         </div>
       </div>

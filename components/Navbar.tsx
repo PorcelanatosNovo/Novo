@@ -3,7 +3,7 @@ import { Fragment } from 'react'
 import { Disclosure } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import LinkP from './LinkP'
-
+import Image from 'next/image'
 const navigation = [
   { name: 'Inicio', href: '/', current: true },
   { name: 'Nosotros', href: '/About', current: false },
@@ -36,8 +36,8 @@ export default function Navbar() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <p className="block lg:hidden h-8 w-auto text-white">LOGO MOBILE</p>
-                  <p className="hidden lg:block h-8 w-auto text-white ">LOGO</p>
+                  <p className="block lg:hidden h-8 w-auto text-white flex"> Nuevos Porcelanatos<Image src="/logo4.png" className="mr-3 h-8" alt=" Logo" width={50} height={30}/></p>
+                  <p className="hidden lg:block h-8 w-auto text-white "><Image src="/logo4.png" className="mr-3 h-8" alt=" Logo" width={50} height={30}/></p>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">

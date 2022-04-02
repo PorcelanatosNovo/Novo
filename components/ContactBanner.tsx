@@ -2,7 +2,7 @@ import React from 'react'
 
 function ContactBanner() {
   return (
-    <section className="mb-32 bg-stone-300 	 text-gray-800">
+    <section className=" bg-stone-300 	 text-gray-800">
     <style>
     </style>
     <div className="block rounded-lg shadow-lg bg-white">
@@ -17,7 +17,7 @@ function ContactBanner() {
             <div className="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12">
               <div className="flex items-start">
                 <div className="shrink-0">
-                  <div className="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                  <div className="p-4 bg-red-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="headset" className="w-5 text-white"
                       role="img" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 512 512">
                       <path fill="currentColor"
@@ -28,15 +28,15 @@ function ContactBanner() {
                 </div>
                 <div className="grow ml-6">
                   <p className="font-bold mb-1">Soporte técnico</p>
-                  <a href="#"><p className="text-gray-500 hover:text-gray-800 ease-in-out duration-300 ">support@example.com</p></a>
-                  <a href="#"><p className="text-gray-500 hover:text-gray-800 ease-in-out duration-300 ">+54 234-567-89</p></a>
+                  <a href="mailto:ceramicasnet@gmail.com" target='_blank' rel='noopener noreferrer' ><p className="text-gray-500 hover:text-gray-800 ease-in-out duration-300 ">support@example.com</p></a>
+                  <a href="tel:+54 9 11 2768-5635" target='_blank' rel='noopener noreferrer'><p className="text-gray-500 hover:text-gray-800 ease-in-out duration-300 ">+54 234-567-89</p></a>
                 </div>
               </div>
             </div>
             <div className="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12">
               <div className="flex items-start">
                 <div className="shrink-0">
-                  <div className="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                  <div className="p-4 bg-red-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="dollar-sign"
                       className="w-3 text-white" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 512">
                       <path fill="currentColor"
@@ -47,15 +47,15 @@ function ContactBanner() {
                 </div>
                 <div className="grow ml-6">
                   <p className="font-bold mb-1">Preguntas de ventas</p>
-                  <a href="#"><p className="text-gray-500 hover:text-gray-800 ease-in-out duration-300 ">support@example.com</p></a>
-                  <a href="#"><p className="text-gray-500 hover:text-gray-800 ease-in-out duration-300 ">+54 234-567-89</p></a>
+                  <a  href="mailto:ceramicasnet@gmail.com" target='_blank' rel='noopener noreferrer' ><p className="text-gray-500 hover:text-gray-800 ease-in-out duration-300 ">support@example.com</p></a>
+                  <a href="tel:+54 9 11 2768-5635" target='_blank' rel='noopener noreferrer'><p className="text-gray-500 hover:text-gray-800 ease-in-out duration-300 ">+54 234-567-89</p></a>
                 </div>
               </div>
             </div>
             <div className="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12">
               <div className="flex align-start">
                 <div className="shrink-0">
-                  <div className="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                  <div className="p-4 bg-red-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="newspaper"
                       className="w-5 text-white" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
                       <path fill="currentColor"
@@ -66,15 +66,15 @@ function ContactBanner() {
                 </div>
                 <div className="grow ml-6">
                   <p className="font-bold mb-1">Asesoramiento</p>
-                  <a href="#"><p className="text-gray-500 hover:text-gray-800 ease-in-out duration-300 ">support@example.com</p></a>
-                  <a href="#"><p className="text-gray-500 hover:text-gray-800 ease-in-out duration-300 ">+54 234-567-89</p></a>
+                  <a  href="mailto:ceramicasnet@gmail.com" target='_blank' rel='noopener noreferrer' ><p className="text-gray-500 hover:text-gray-800 ease-in-out duration-300 ">support@example.com</p></a>
+                  <a href="tel:+54 9 11 2768-5635" target='_blank' rel='noopener noreferrer'><p className="text-gray-500 hover:text-gray-800 ease-in-out duration-300 ">+54 234-567-89</p></a>
                 </div>
               </div>
             </div>
             <div className="mb-12 lg:mb-0 grow-0 shrink-0 basis-auto w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12">
               <div className="flex align-start">
                 <div className="shrink-0">
-                  <div className="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                  <div className="p-4 bg-red-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bug" className="w-5 text-white"
                       role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                       <path fill="currentColor"
@@ -85,8 +85,8 @@ function ContactBanner() {
                 </div>
                 <div className="grow ml-6">
                   <p className="font-bold mb-1">Consulta general</p>
-                  <a href="#"><p className="text-gray-500 hover:text-gray-800 ease-in-out duration-300 ">support@example.com</p></a>
-                  <a href="#"><p className="text-gray-500 hover:text-gray-800 ease-in-out duration-300 ">+54 234-567-89</p></a>
+                  <a  href="mailto:ceramicasnet@gmail.com" target='_blank' rel='noopener noreferrer' ><p className="text-gray-500 hover:text-gray-800 ease-in-out duration-300 ">support@example.com</p></a>
+                  <a href="tel:+54 9 11 2768-5635" target='_blank' rel='noopener noreferrer'><p className="text-gray-500 hover:text-gray-800 ease-in-out duration-300 ">+54 234-567-89</p></a>
                 </div>
               </div>
             </div>

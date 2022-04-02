@@ -16,52 +16,31 @@
 */
 const callouts = [
     {
-      name: 'Desk and Office',
-      description: 'Work from home accessories',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg',
-      imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
-      href: '#',
+      name: 'Porcelanatos y más',
+      description: 'Porcelanatos',
+      imageSrc: './porcelanato.jpg',
+      imageAlt: 'Un porcelanato',
+      href: 'https://ceramicasnet.mercadoshops.com.ar/listado/construccion-pisos-revestimientos/',
     },
     {
-      name: 'Self-Improvement',
-      description: 'Journals and note-taking',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
-      imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
-      href: '#',
+      name: 'Cerámicas  y más',
+      description: 'Cerámicas',
+      imageSrc: './ceramica.jpg',
+      imageAlt: 'Ceramica 30x45 Legno Nogal 1era Cortines Piso Madera',
+      href: 'https://ceramicasnet.mercadoshops.com.ar/listado/construccion-banos-sanitarios/',
     },
     {
-      name: 'Travel',
-      description: 'Daily commute essentials',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
-      imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
-      href: '#',
-    },
-    {
-        name: 'Travel 2',
-        description: 'Daily commute essentials',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
-        imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
-        href: '#',
-      },
-      {
-        name: 'Travel 3',
-        description: 'Daily commute essentials',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
-        imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
-        href: '#',
-      },
-      {
-        name: 'Travel 4',
-        description: 'Daily commute essentials',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
-        imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
-        href: '#',
-      },
+      name: 'Sanitarios  y más',
+      description: 'Sanitarios',
+      imageSrc: '/sanitarios.jpg',
+      imageAlt: 'Sanitario',
+      href: 'https://ceramicasnet.mercadoshops.com.ar/listado/construccion-banos-sanitarios/',
+    }
   ]
   
   export default function Category() {
     return (
-      <div className="bg-white">
+      <div className="bg-white mb-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:py-3 lg:max-w-none">
             <h2 className="text-2xl font-extrabold text-gray-900">Nuestras categorías</h2>

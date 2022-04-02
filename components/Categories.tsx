@@ -18,25 +18,25 @@ import Image from "next/image"
 
 const callouts = [
     {
-      name: 'Porcelanatos',
-      description: 'Pisos y porcelanatos',
+      name: 'Porcelanatos y pisos',
+      description: 'Porcelanatos',
       imageSrc: '/porcelanato.jpg',
       imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
-      href: '#',
+      href: 'https://ceramicasnet.mercadoshops.com.ar/listado/construccion-pisos-revestimientos/',
     },
     {
-      name: 'Griferías',
-      description: 'Griferías y accesorios',
+      name: 'Griferías y accesorios',
+      description: 'Griferías',
       imageSrc: '/griferia.jpg',
       imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
-      href: '#',
+      href: 'https://ceramicasnet.mercadoshops.com.ar/listado/construccion-banos-sanitarios/',
     },
     {
       name: 'Sanitarios y más',
-      description: 'Sanitarios y más',
+      description: 'Sanitarios',
       imageSrc: '/sanitarios.jpg',
       imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
-      href: '#',
+      href: 'https://ceramicasnet.mercadoshops.com.ar/listado/construccion-banos-sanitarios/',
     },
   ]
   
@@ -44,8 +44,8 @@ const callouts = [
     return (
       <div className="bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-2xl mx-auto py-16 sm:py-14 lg:py-12 lg:max-w-none">
-            <h2 className="text-2xl font-extrabold text-gray-900">Categorías destacadas</h2>
+          <div className="max-w-2xl mx-auto py-16 sm:py-14 lg:py-6 lg:max-w-none">
+            <h2 className="text-3xl font-bold mb-6 pb-2">Categorías destacadas</h2>
   
             <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
               {callouts.map((callout) => (
@@ -60,7 +60,7 @@ const callouts = [
                     />
                   </div>
                   <h3 className="mt-6 text-sm text-gray-500">
-                    <a href={callout.href}>
+                    <a href={callout.href} target='_blank' rel="noopener noreferrer">
                       <span className="absolute inset-0" />
                       {callout.name}
                     </a>
