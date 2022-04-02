@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function Hero() {
   return (
@@ -33,10 +34,12 @@ function Hero() {
         <a className="inline-block px-7 py-3 bg-transparent text-blue-600 font-medium text-sm leading-snug uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light" href="#!" role="button">Saber más</a>
       </div>
       <div className="mb-12 lg:mb-0">
-        <img
-          src="https://mdbootstrap.com/img/new/standard/city/017.jpg"
+        <Image
+          src="/construccion.jpg"
           className="w-full rounded-lg shadow-lg"
           alt=""
+          width={400}
+          height={300}
         />
       </div>
     </div>

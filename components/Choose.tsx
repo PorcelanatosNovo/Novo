@@ -6,7 +6,7 @@ function Choose() {
     <div className="block rounded-lg shadow-lg bg-white">
       <div className="flex flex-wrap items-center">
         <div className="grow-0 shrink-0 basis-auto block w-full lg:flex lg:w-6/12 xl:w-4/12">
-          <img src="https://mdbootstrap.com/img/new/ecommerce/vertical/004.jpg" alt="Trendy Pants and Shoes"
+          <img src="./figure.png" alt="Trendy Pants and Shoes"
             className="w-full max-h-[100rem] rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" />
         </div>
         <div className="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
