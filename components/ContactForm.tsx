@@ -151,7 +151,7 @@ export default function ContacForm() {
 			
 			  />
 				{form.state === 'loading' ? (
-					<div>Sending....</div>
+					<div>Enviando....</div>
 				) : form.state === 'error' ? (
 					<div>{form.message}</div>
 				) : (
