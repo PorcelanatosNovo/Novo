@@ -11,7 +11,7 @@ function SocialMedia() {
       <div className="flex flex-wrap justify-center md:space-x-2">
         {/* <!-- Facebook --> */}
         <a href='https://www.facebook.com/Ceramicasnet-108528034310053' target='_blank' rel='noopener noreferrer' data-mdb-ripple="true" data-mdb-ripple-color="light"
-          className="bg-blue-600 py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
+          className="bg-blue-600 m-2 py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
           >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" className="w-4 h-4 mr-2">
             <path fill="currentColor"
@@ -22,7 +22,7 @@ function SocialMedia() {
 
         {/* <!-- eshop --> */}
         <a href='https://ceramicasnet.mercadoshops.com.ar/' target='_blank' rel='noopener noreferrer' data-mdb-ripple="true" data-mdb-ripple-color="light"
-          className="bg-sky-400 py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
+          className="bg-sky-400 m-2 py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
           >
           <Image 
           src="/store.png"
@@ -35,7 +35,7 @@ function SocialMedia() {
 
         {/* <!-- Google --> */}
         <a  target='_blank' rel='noopener noreferrer' href='mailto:ceramicasnet@gmail.com' data-mdb-ripple="true" data-mdb-ripple-color="light"
-          className="bg-red-700 py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
+          className="bg-red-700 m-2 py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
           >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512" className="w-4 h-4 mr-2">
             <path fill="currentColor"
@@ -46,7 +46,7 @@ function SocialMedia() {
 
         {/* <!-- Instagram --> */}
         <a href='https://www.instagram.com/ceramicasnet/' target='_blank' rel='noopener noreferrer' data-mdb-ripple="true" data-mdb-ripple-color="light"
-          className="bg-rose-700 py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
+          className="bg-rose-700 m-2 py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
          >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4 mr-2">
             <path fill="currentColor"
