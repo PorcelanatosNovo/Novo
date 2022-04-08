@@ -16,7 +16,6 @@ function MyApp({ Component, pageProps, router }: AppProps) {
       key={router.route}
       initial="initial"
       animate="animate"
-      className='w-full max-w-[100vw]'
       variants={{
         initial: {
           opacity: 0,
