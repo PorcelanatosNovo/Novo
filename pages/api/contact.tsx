@@ -16,12 +16,12 @@ export default async (req, res) => {
   try {
     await transporter.sendMail({
       from: email,
-      to: "novoporcelanatos@gmail.com",
+      to: "novoporcelanatos2019@gmail.com",
       subject: `Formulario de contacto de ${name}`,
       html: `<p>Un usuario ha solicitado estar en contacto</p><br>
         <p><strong>Email: </strong> ${email}</p><br>
-        <p><strong>Phone: </strong> ${phone}</p><br>
-        <p><strong>Message: </strong> ${message}</p><br>
+        <p><strong>Celular: </strong> ${phone}</p><br>
+        <p><strong>Consulta: </strong> ${message}</p><br>
       `
     });
   } catch (error) {
