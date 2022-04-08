@@ -3,7 +3,7 @@ import React from 'react'
 function Buttons() {
   return (
     
-<div className="buttons my-10 flex flex-wrap justify-center align-center">
+<div className="flex flex-wrap justify-center align-center w-fit n-auto">
 
           <a href='https://walink.co/e016e9' target='_blank' rel='noopener noreferrer' className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-xl px-5 py-2.5 lg:mr-2 mr-1 mb-2 ">
           Enviar Mensaje</a>
