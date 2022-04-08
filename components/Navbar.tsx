@@ -1,5 +1,4 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react'
 import { Disclosure } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import LinkP from './LinkP'
@@ -18,7 +17,7 @@ function classNames(...classes: string[]) {
 export default function Navbar() {
 
   return (
-    <Disclosure as="nav" className="bg-gray-800 z-50">
+    <Disclosure as="nav" className="bg-black z-50">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 ">
@@ -36,7 +35,7 @@ export default function Navbar() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <p className="block lg:hidden h-8 w-auto text-white flex"> <span className='text-red-600 '>nuevos</span> Porcelanatos<Image src="/logo4.png" className="mr-3 h-8" alt=" Logo" width={50} height={30}/></p>
+                  <p className=" lg:hidden h-8 w-auto text-white flex"> <span className='text-red-600 '>novo</span> Porcelanatos<Image src="/logo4.png" className="mr-3 h-8" alt=" Logo" width={50} height={30}/></p>
                   <p className="hidden lg:block h-8 w-auto text-white "><Image src="/logo4.png" className="mr-3 h-8" alt=" Logo" width={50} height={30}/></p>
                 </div>
                 <div className="hidden sm:block sm:ml-6">

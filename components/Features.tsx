@@ -2,8 +2,8 @@ import React from 'react'
 
 function Features() {
   return (
-    <section className="text-gray-800 text-center">
-<h2 className="text-3xl font-bold mb-20">Somos líderes del mercado</h2>
+    <section className="text-gray-800 text-center p-4 bg-black">
+<h2 className="text-4xl	 font-bold mb-20 uppercase text-red-600">Somos líderes del mercado</h2>
 
 <div className="grid lg:gap-x-12 lg:grid-cols-3">
   <div className="mb-12 lg:mb-0">
@@ -38,9 +38,9 @@ function Features() {
         </div>
       </div>
       <div className="p-6">
-        <h5 className="text-lg font-semibold mb-4">Seguro</h5>
+        <h5 className="text-lg font-semibold mb-4">Seguridad en tu compra</h5>
         <p>
-         Te proporcionamos seguridad en todas tus compras para que siempre estes protegido.
+         En todas tus compras te proporcionamos la seguridad de nuestros 25 años de experiencia.
         </p>
       </div>
     </div>
@@ -57,9 +57,9 @@ function Features() {
         </div>
       </div>
       <div className="p-6">
-        <h5 className="text-lg font-semibold mb-4">Entrega rápida</h5>
+        <h5 className="text-lg font-semibold mb-4">Stock Permanente</h5>
         <p>
-          Entregamos tus compras lo antes posible en todas las ocasiones.
+          Siempre contamos con stock, para una entrega inmediata de lo que querés.
         </p>
       </div>
     </div>

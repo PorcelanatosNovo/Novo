@@ -2,27 +2,18 @@ import React from 'react'
 import Image from 'next/image'
 function SocialMedia() {
   return (
-    <section className=" text-gray-800 text-center">
+    <section className=" text-white text-center bg-[url('/marbel.webp')]">
     <div className="p-12">
       <h2 className="text-5xl font-bold tracking-tight leading-tight my-12">
        Estemos en contacto <br />
         <span className="text-red-600">Únete a nuestras redes sociales</span>
       </h2>
       <div className="flex flex-wrap justify-center md:space-x-2">
-        {/* <!-- Facebook --> */}
-        <a href='https://www.facebook.com/Ceramicasnet-108528034310053' target='_blank' rel='noopener noreferrer' data-mdb-ripple="true" data-mdb-ripple-color="light"
-          className="bg-blue-600 m-2 py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
-          >
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" className="w-4 h-4 mr-2">
-            <path fill="currentColor"
-              d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
-          </svg>
-          Facebook
-        </a>
+      
 
         {/* <!-- eshop --> */}
         <a href='https://ceramicasnet.mercadoshops.com.ar/' target='_blank' rel='noopener noreferrer' data-mdb-ripple="true" data-mdb-ripple-color="light"
-          className="bg-sky-400 m-2 py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
+          className="bg-sky-400 m-2 py-2.5 px-6 mb-2 text-white font-semibold	 text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
           >
           <Image 
           src="/store.png"
@@ -34,19 +25,19 @@ function SocialMedia() {
         </a>
 
         {/* <!-- Google --> */}
-        <a  target='_blank' rel='noopener noreferrer' href='mailto:ceramicasnet@gmail.com' data-mdb-ripple="true" data-mdb-ripple-color="light"
-          className="bg-red-700 m-2 py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
+        <a  target='_blank' rel='noopener noreferrer' href='mailto:novoporcelanatos2019@gmail.com' data-mdb-ripple="true" data-mdb-ripple-color="light"
+          className="font-semibold	 bg-red-700 m-2 py-2.5 px-6 mb-2 text-white text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
           >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512" className="w-4 h-4 mr-2">
             <path fill="currentColor"
               d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" />
           </svg>
-          Email
+          Mail
         </a>
 
         {/* <!-- Instagram --> */}
-        <a href='https://www.instagram.com/ceramicasnet/' target='_blank' rel='noopener noreferrer' data-mdb-ripple="true" data-mdb-ripple-color="light"
-          className="bg-rose-700 m-2 py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
+        <a href='https://www.instagram.com/novoleloir/' target='_blank' rel='noopener noreferrer' data-mdb-ripple="true" data-mdb-ripple-color="light"
+          className="bg-rose-700 m-2 py-2.5 px-6 mb-2 text-white font-semibold	 text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
          >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4 mr-2">
             <path fill="currentColor"

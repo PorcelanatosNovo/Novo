@@ -4,7 +4,7 @@ import Head from 'next/head'
 function MetaHead() {
   return (
     <Head>
-    <title>nuevos Porcelanatos</title>
+    <title>novo Porcelanatos</title>
     <meta name="description" content="Tienda de porcelanatos y ceramicas." />
     <meta name="title" content="novo Porcelanato"/>
 <meta name="description" content="Somos novo Porcelanato, la mejor elección para tu hogar."/>
