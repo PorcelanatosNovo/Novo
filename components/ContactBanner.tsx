@@ -1,5 +1,5 @@
 import React from 'react'
-import {MailIcon, PhoneOutgoingIcon} from '@heroicons/react/outline'
+import {MailIcon, PhoneOutgoingIcon, MapIcon } from '@heroicons/react/outline'
 function ContactBanner() {
   return (
     <section className=" bg-transparent text-white">
@@ -42,6 +42,20 @@ function ContactBanner() {
                   <p className="font-bold mb-1">Asesoramiento</p>
                   <a  href="mailto:novoporcelanatos2019@gmail.com" target='_blank' rel='noopener noreferrer' ><p className="text-stone-200 flex items-center hover:text-stone-400 ease-in-out duration-300 ">Enviar consulta por mail <MailIcon className="block h-4 w-4" /></p></a>
                   <a href="tel:+54 9 11 5765-2651" target='_blank' rel='noopener noreferrer'><p className="text-stone-200 hover:text-stone-400 ease-in-out duration-300 flex items-center">+54 9 11 5765-2651 <PhoneOutgoingIcon  className='block h-4 w-4'/></p></a>
+                </div>
+              </div>
+            </div>
+            <div className="mb-12 w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12 min-w-[300px] bg-black py-6 rounded-lg mx-2">
+              <div className="flex align-start">
+                <div className="shrink-0">
+                  <div className="p-4 bg-red-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                  <MapIcon  className="block h-5 w-5" />
+                  </div>
+                </div>
+                <div className="grow ml-6">
+                  <p className="font-bold mb-1">Showroom</p>
+                  <a  href="https://g.page/novo-porcelanatos?share" target='_blank' rel='noopener noreferrer' ><p className="text-stone-200 flex items-center hover:text-stone-400 ease-in-out duration-300 ">Av. Pres. Perón 8545, Leloir.<MapIcon className="block h-4 w-4" /></p></a>
+                  <a href="tel:+54 9 11 5765-2651" target='_blank' rel='noopener noreferrer'><p className="text-stone-200 hover:text-stone-400 ease-in-out duration-300 flex items-center">Concertar visita <PhoneOutgoingIcon  className='block h-4 w-4'/></p></a>
                 </div>
               </div>
             </div>

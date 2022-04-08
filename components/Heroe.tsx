@@ -29,7 +29,7 @@ function Heroe(router:any) {
       <div className="">
         <Image
           src="/construccion.jpeg"
-          className="w-full rounded shadow-lg !border-4	 !border-red-600	!border-double"
+          className="w-full rounded shadow-lg "
           alt="Showroom de novo porcelanatos"
           width={650}
           height={350}

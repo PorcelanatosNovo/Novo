@@ -6,7 +6,7 @@ import NextCarousel from '../components/NextCarousel'
 function About() {
   return (
     <div className='flex justify-center align-center flex-col	text-center	bg-[url("/marbel.webp")] max-w-[100vw] w-full'>
-      <h1 className='lg:text-8xl text-6xl font-bold tracking-tight leading-tight mt-12 mb-6 text-white max-w-full'><span className='text-red-600'>novo</span> Porcelanatos</h1>
+      <h1 className=' font-bold tracking-tight leading-tight mt-12 mb-6 text-white max-w-full text-5xl md:text-6xl xl:text-7xl'><span className='text-red-600 lg:text-8xl text-6xl'>novo</span> Porcelanatos</h1>
       <Us />
       <NextCarousel />
       <Buttons />
