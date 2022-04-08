@@ -30,9 +30,30 @@ const callouts = [
       href: 'https://ceramicasnet.mercadoshops.com.ar/listado/construccion-banos-sanitarios/',
     },
     {
+      name: 'Pegamentos y más',
+      description: 'Pegamentos',
+      imageSrc: './pegamento.jpg',
+      imageAlt: 'Pegamento construcción',
+      href: 'https://ceramicasnet.mercadoshops.com.ar/listado/construccion-pisos-revestimientos/',
+    },
+    {
       name: 'Sanitarios  y más',
       description: 'Sanitarios',
       imageSrc: '/sanitarios.jpg',
+      imageAlt: 'Sanitario',
+      href: 'https://ceramicasnet.mercadoshops.com.ar/listado/construccion-banos-sanitarios/',
+    },
+    {
+      name: 'Perfilería  y más',
+      description: 'Perfilería',
+      imageSrc: '/perfileria.jpg',
+      imageAlt: 'Sanitario',
+      href: 'https://ceramicasnet.mercadoshops.com.ar/listado/construccion-banos-sanitarios/',
+    },
+    {
+      name: 'Más productos',
+      description: 'Otros productos',
+      imageSrc: '/otro.jpg',
       imageAlt: 'Sanitario',
       href: 'https://ceramicasnet.mercadoshops.com.ar/listado/construccion-banos-sanitarios/',
     }
@@ -48,7 +69,7 @@ const callouts = [
             <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
               {callouts.map((callout) => (
                 <div key={callout.name} className="group relative">
-                  <div className="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                  <div className="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1 m-4">
                     <img
                       src={callout.imageSrc}
                       alt={callout.imageAlt}

@@ -7,7 +7,7 @@ function ContactBanner() {
     <div className="rounded-lg shadow-lg bg-transparent ">
       <div className="flex flex-wrap items-center">
         <div className=" flex flex-col lg:flex-row items-center justify-center m-auto">
-        <div className="mb-12 w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12">
+        <div className="mb-12 w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12 min-w-[300px] bg-black py-6 rounded-lg mx-2">
               <div className="flex items-start">
                 <div className="shrink-0">
                   <div className="p-4 bg-red-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
@@ -26,7 +26,7 @@ function ContactBanner() {
                 </div>
               </div>
             </div>
-            <div className="mb-12 w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12">
+            <div className="mb-12 w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12 min-w-[300px] bg-black py-6 rounded-lg mx-2">
               <div className="flex align-start">
                 <div className="shrink-0">
                   <div className="p-4 bg-red-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
