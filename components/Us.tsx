@@ -17,7 +17,7 @@ function Us() {
           <div className="px-6 py-12 md:px-12 font-bold text-lg	">
             <h2 className="text-5xl font-bold mb-6  ">Somos <span className='text-red-600'>novo</span> Porcelanatos</h2>
             <p className="text-white mb-6 font-normal	">
-            Somos empresa lider en venta mayorista y minorista, con más de 25 años de experiencia en el rubro. Contamos con un showroom el cual sirve como punto de encuentro entre aquellos interesados en darle nueva vida a su hogar y nuestros profesionales. Para una mejor experiencia, contamos con stock permanente para que siempre puedas retirar lo que querés en 48/72hs.
+            Somos empresa lider en venta mayorista y minorista, con más de 25 años de experiencia en el rubro. Contamos con un showroom el cual brinda un punto de encuentro entre aquellos interesados en darle nueva vida a su hogar y nuestros profesionales. Para una mejor experiencia, contamos con stock permanente para que siempre puedas retirar lo que querés en 48/72hs.
             </p>
 
             <div className="grid md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-x-6">
