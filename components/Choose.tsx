@@ -8,7 +8,7 @@ function Choose() {
       <div className="flex flex-wrap items-center">
         <div className="grow-0 shrink-0 basis-auto block w-full lg:flex lg:w-6/12 xl:w-4/12 p-2 ">
           <Image src="/novo.webp" alt="Entrade de la tienda"
-          width={400}
+          width={600}
           height={350}
             className="w-full max-h-[100rem] rounded bg-white " />
         </div>
