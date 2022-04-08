@@ -59,8 +59,8 @@ export default function ContacForm() {
 		}
 	}
 	return (
-		<div className='flex justify-center items-center flex-col'>
-			<form className='min-w-[75%] flex justify-center aitems-center form-group mb-6	 flex-col' onSubmit={(e) => onSubmitForm(e)}>
+		<div className='flex justify-center items-center flex-col '>
+			<form className='min-w-[75%] flex justify-center items-center form-group mb-6	 flex-col' onSubmit={(e) => onSubmitForm(e)}>
 				<input
 					id='name'
 					type='text'
@@ -78,7 +78,7 @@ export default function ContacForm() {
 					rounded
 					transition
 					ease-in-out
-					m-2
+					m-2 max-w-[300px]
 					focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none'
 					placeholder='Nombre'
 					required
@@ -100,7 +100,7 @@ export default function ContacForm() {
 					rounded
 					transition
 					ease-in-out
-					m-2
+					m-2 max-w-[300px]
 					focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none'
 					placeholder='Correo electrónico'
 					required
@@ -125,7 +125,7 @@ export default function ContacForm() {
 					m-2
 					focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none'
 					placeholder='Consulta'
-					rows='5'
+					rows='3'
 					required
 				/>
 				<input type='submit' className='w-full

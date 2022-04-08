@@ -13,7 +13,7 @@ function Contact() {
       
       
     </div>
-    <div className="bg-black">
+    <div className="bg-black p-4">
     <h1 className='text-5xl font-bold tracking-tight leading-tight mt-12 text-center '>Contáctanos <span className='text-red-600'>hoy</span>!</h1>
     <p className='text-xl font-semibold mb-4 text-center'>Nos pondremos en contacto lo antes posible.</p>
     <ContacForm />

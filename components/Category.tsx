@@ -47,9 +47,9 @@ const callouts = [
   
   export default function Category() {
     return (
-      <div className="bg-black ">
+      <div className="bg-black p-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:py-3 lg:max-w-none">
+          <div className="max-w-2xl mx-auto pb-16 pt-4 sm:py-24 lg:py-3 lg:max-w-none">
             <h2 className="text-2xl font-extrabold text-white uppercase">Nuestras categorías</h2>
   
             <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
@@ -60,8 +60,8 @@ const callouts = [
                       src={callout.imageSrc}
                       alt={callout.imageAlt}
                       className="w-full h-full object-center object-cover"
-                      width={400}
-                      height={300}
+                      width={600}
+                      height={500}
                     />
                   </div>
                   <h3 className="mt-6 text-sm text-white">

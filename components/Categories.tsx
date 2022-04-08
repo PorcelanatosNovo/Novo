@@ -56,7 +56,7 @@ const callouts = [
                       alt={callout.imageAlt}
                       className="w-full h-full object-center object-cover"
                       width={400}
-                      height={250}
+                      height={550}
                     />
                   </div>
                   <h3 className="mt-6 text-sm text-white">
