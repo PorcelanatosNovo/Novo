@@ -3,6 +3,8 @@ import { Disclosure } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import LinkP from './LinkP'
 import Image from 'next/image'
+import Link from 'next/link'
+
 const navigation = [
   { name: 'Inicio', href: '/', current: true },
   { name: 'Nosotros', href: '/About', current: false },
@@ -35,8 +37,8 @@ export default function Navbar() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <p className=" lg:hidden h-8 w-auto text-white flex"> <span className='text-red-600 '>novo</span> Porcelanatos<Image src="/logo4.png" className="mr-3 h-8" alt=" Logo" width={50} height={30}/></p>
-                  <p className="hidden lg:block h-8 w-auto text-white "><Image src="/logo4.png" className="mr-3 h-8" alt=" Logo" width={50} height={30}/></p>
+                  <Link href="/" passHref ><p className=" lg:hidden h-8 w-auto text-white flex"> <span className='text-red-600 '>novo</span> Porcelanatos<Image src="/logo4.png" className="mr-3 h-8" alt=" Logo" width={50} height={30}/></p></Link>
+                 <Link  href="/" passHref><p className="hidden lg:block h-8 w-auto text-white hover:cursor-pointer"><Image src="/logo4.png" className="mr-3 h-8" alt=" Logo" width={50} height={30}/></p></Link>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
