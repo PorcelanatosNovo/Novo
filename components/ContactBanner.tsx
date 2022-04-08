@@ -54,7 +54,7 @@ function ContactBanner() {
                 </div>
                 <div className="grow ml-6">
                   <p className="font-bold mb-1">Showroom</p>
-                  <a  href="https://g.page/novo-porcelanatos?share" target='_blank' rel='noopener noreferrer' ><p className="text-stone-200 flex items-center hover:text-stone-400 ease-in-out duration-300 ">Av. Pres. Perón 8545, Leloir.<MapIcon className="block h-4 w-4" /></p></a>
+                  <a  href="https://g.page/novo-porcelanatos?share" target='_blank' rel='noopener noreferrer' ><p className=" text-stone-200 flex items-center hover:text-stone-400 ease-in-out duration-300 whitespace-nowrap	">Av. Pres. Perón 8545, Leloir.<MapIcon className="block h-4 w-4" /></p></a>
                   <a href="tel:+54 9 11 5765-2651" target='_blank' rel='noopener noreferrer'><p className="text-stone-200 hover:text-stone-400 ease-in-out duration-300 flex items-center">Concertar visita <PhoneOutgoingIcon  className='block h-4 w-4'/></p></a>
                 </div>
               </div>
