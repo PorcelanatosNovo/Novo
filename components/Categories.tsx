@@ -55,7 +55,7 @@ const callouts = [
                       src={callout.imageSrc}
                       alt={callout.imageAlt}
                       className="w-full h-full object-center object-cover"
-                      width={300}
+                      width={400}
                       height={250}
                     />
                   </div>
