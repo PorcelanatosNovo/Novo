@@ -5,6 +5,7 @@ export default function ContacForm() {
 	const [inputs, setInputs] = useState({
 		name: '',
 		email: '',
+		phone: '',
 		message: '',
 	})
 
@@ -20,7 +21,7 @@ export default function ContacForm() {
 	const onSubmitForm = async (e) => {
 		e.preventDefault()
 
-		if (inputs.name && inputs.email && inputs.message) {
+		if (inputs.name && inputs.email  && inputs.phone && inputs.message) {
 			setForm({ state: 'loading' })
 			try {
 				const res = await fetch(`api/contact`, {
@@ -48,6 +49,7 @@ export default function ContacForm() {
 				setInputs({
 					name: '',
 					email: '',
+					phone: '',
 					message: '',
 				})
 			} catch (error) {
@@ -61,6 +63,7 @@ export default function ContacForm() {
 	return (
 		<div className='flex justify-center items-center flex-col '>
 			<form className='min-w-[75%] flex justify-center items-center form-group mb-6	 flex-col' onSubmit={(e) => onSubmitForm(e)}>
+			<label htmlFor="name" className='text-lg font-semibold'>Nombre</label>
 				<input
 					id='name'
 					type='text'
@@ -83,6 +86,7 @@ export default function ContacForm() {
 					placeholder='Nombre'
 					required
 				/>
+				<label htmlFor="email" className='text-lg font-semibold'>Correo electrónico</label>
 				<input
 					id='email'
 					type='email'
@@ -105,6 +109,30 @@ export default function ContacForm() {
 					placeholder='Correo electrónico'
 					required
 				/>
+				  <label htmlFor="phone" className='text-lg font-semibold'>Número de celular</label>
+					<input
+					id='phone'
+					type='tel'
+					value={inputs.phone}
+					onChange={handleChange}
+					className='form-control block
+					w-full
+					px-3
+					py-1.5
+					text-base
+					font-normal
+					text-gray-700
+					bg-white bg-clip-padding
+					border border-solid border-gray-300
+					rounded
+					transition
+					ease-in-out
+					m-2 max-w-[300px]
+					focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none'
+					placeholder='11-1111-1111' 
+					required
+				/>
+				  <label htmlFor="message" className='text-lg font-semibold'>Tu mensaje</label>
 				<textarea
 					id='message'
 					type='text'
