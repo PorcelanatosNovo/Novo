@@ -6,42 +6,42 @@ const callouts = [
       description: 'Porcelanatos',
       imageSrc: '/porcelanato.jpg',
       imageAlt: 'Un porcelanato',
-      href: 'https://ceramicasnet.mercadoshops.com.ar/listado/construccion-pisos-revestimientos/',
+      href: 'https://novoporcelanatos468381923.mercadoshops.com.ar/listado/pisos-paredes-aberturas-porcelanatos/',
     },
     {
       name: 'Cerámicas  y más',
       description: 'Cerámicas',
       imageSrc: '/ceramica.jpg',
       imageAlt: 'Ceramica 30x45 Legno Nogal 1era Cortines Piso Madera',
-      href: 'https://ceramicasnet.mercadoshops.com.ar/listado/construccion-banos-sanitarios/',
+      href: 'https://novoporcelanatos468381923.mercadoshops.com.ar/listado/pisos-paredes-aberturas-ceramicas/',
     },
     {
-      name: 'Pegamentos y más',
+      name: 'Mezclas Adhesivas para Pisos',
       description: 'Pegamentos',
-      imageSrc: '/pegamento.jpg',
+      imageSrc: '/adhesivos.jpg',
       imageAlt: 'Pegamento construcción',
-      href: 'https://ceramicasnet.mercadoshops.com.ar/listado/construccion-pisos-revestimientos/',
+      href: 'https://novoporcelanatos468381923.mercadoshops.com.ar/listado/pisos-revestimientos-mezclas-adhesivas/',
     },
     {
       name: 'Sanitarios  y más',
       description: 'Sanitarios',
       imageSrc: '/sanitarios.jpg',
       imageAlt: 'Sanitario',
-      href: 'https://ceramicasnet.mercadoshops.com.ar/listado/construccion-banos-sanitarios/',
+      href: 'https://novoporcelanatos468381923.mercadoshops.com.ar/',
     },
     {
       name: 'Perfilería  y más',
       description: 'Perfilería',
       imageSrc: '/perfileria.jpg',
-      imageAlt: 'Sanitario',
-      href: 'https://ceramicasnet.mercadoshops.com.ar/listado/construccion-banos-sanitarios/',
+      imageAlt: 'Imagen de perfilerías',
+      href: 'https://novoporcelanatos468381923.mercadoshops.com.ar/',
     },
     {
       name: 'Más productos',
       description: 'Otros productos',
       imageSrc: '/otro.jpg',
-      imageAlt: 'Sanitario',
-      href: 'https://ceramicasnet.mercadoshops.com.ar/listado/construccion-banos-sanitarios/',
+      imageAlt: 'Una sala decorada con porcelanatos.',
+      href: 'https://novoporcelanatos468381923.mercadoshops.com.ar/',
     }
   ]
   
@@ -64,8 +64,8 @@ const callouts = [
                       height={620}
                     />
                   </div>
-                  <h3 className="mt-6 text-sm text-white">
-                    <a href={callout.href}>
+                  <h3 className="mt-6 text-sm text-white" >
+                    <a href={callout.href} target="_blank" rel="noreferrer noopener">
                       <span className="absolute inset-0" />
                       {callout.name}
                     </a>

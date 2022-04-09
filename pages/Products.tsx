@@ -9,12 +9,12 @@ function Products() {
       <h1 className='text-5xl font-bold tracking-tight leading-tight mt-12 mb-6 text-white'>Visita nuestra <a href="https://www.ceramicasnet.com.ar/" target='_blank' rel='noopener noreferrer' className='text-red-600 uppercase hover:text-red-700'>tienda online</a></h1>
       <p className='text-lg font-semibold mb-4 text-white'>Encontrá todos los productos en nuestro e-shop</p>
       <Buttons />
-       <a href="https://www.ceramicasnet.com.ar/" target='_blank' rel='noopener noreferrer'> 
+       <a href="https://novoporcelanatos468381923.mercadoshops.com.ar/" target='_blank' rel='noopener noreferrer'> 
         <Image 
           src="/tienda.webp"
           alt="Picture of the author"
-          width={600}
-          height={300}
+          width={700}
+          height={400}
         />
         </a>
         </div>
