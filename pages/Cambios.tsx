@@ -2,7 +2,7 @@ import React from 'react'
 
 function Cambios() {
   return (
-    <div className='bg-black text-white flex flex-col items-center justify-center'>
+    <div className='bg-[url("/marbel.webp")] text-white flex flex-col items-center justify-center'>
         <h1 className='text-6xl font-bold tracking-tight leading-tight pt-12 mb-6 underline text-center'>Colocación y cuidados</h1>
         <h2 className='text-3xl font-bold tracking-tight leading-tight pt-6 mb-6 underline text-center text-red-600'>IMPORTANTE</h2>
         <ul className='text-lg  text-white list-disc w-10/12' >
