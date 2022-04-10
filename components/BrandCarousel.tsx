@@ -28,7 +28,7 @@ function BrandCarousel() {
     <Carousel responsive={responsive}
     infinite={true}
     autoPlay={true}
-    autoPlaySpeed={2000}
+    autoPlaySpeed={1000}
     itemClass="carousel-item-padding-40-px"
     containerClass="mb-10"
     >

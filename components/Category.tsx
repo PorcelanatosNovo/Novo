@@ -4,35 +4,35 @@ const callouts = [
     {
       name: 'Porcelanatos y más',
       description: 'Porcelanatos',
-      imageSrc: '/porcelanato.jpg',
+      imageSrc: '/porcelanato.webp',
       imageAlt: 'Un porcelanato',
       href: 'https://novoporcelanatos468381923.mercadoshops.com.ar/listado/pisos-paredes-aberturas-porcelanatos/',
     },
     {
       name: 'Cerámicas  y más',
       description: 'Cerámicas',
-      imageSrc: '/ceramica.jpg',
+      imageSrc: '/ceramica.webp',
       imageAlt: 'Ceramica 30x45 Legno Nogal 1era Cortines Piso Madera',
       href: 'https://novoporcelanatos468381923.mercadoshops.com.ar/listado/pisos-paredes-aberturas-ceramicas/',
     },
     {
       name: 'Mezclas Adhesivas para Pisos',
       description: 'Pegamentos',
-      imageSrc: '/adhesivos.jpg',
+      imageSrc: '/adhesivos.webp',
       imageAlt: 'Pegamento construcción',
       href: 'https://novoporcelanatos468381923.mercadoshops.com.ar/listado/pisos-revestimientos-mezclas-adhesivas/',
     },
     {
       name: 'Sanitarios  y más',
       description: 'Sanitarios',
-      imageSrc: '/sanitarios.jpg',
+      imageSrc: '/sanitarios.webp',
       imageAlt: 'Sanitario',
       href: 'https://novoporcelanatos468381923.mercadoshops.com.ar/',
     },
     {
       name: 'Perfilería  y más',
       description: 'Perfilería',
-      imageSrc: '/perfileria.jpg',
+      imageSrc: '/perfileria.webp',
       imageAlt: 'Imagen de perfilerías',
       href: 'https://novoporcelanatos468381923.mercadoshops.com.ar/',
     },
@@ -61,7 +61,7 @@ const callouts = [
                       alt={callout.imageAlt}
                       className="w-full h-full object-center object-cover"
                       width={600}
-                      height={620}
+                      height={650}
                     />
                   </div>
                   <h3 className="mt-6 text-sm text-white" >

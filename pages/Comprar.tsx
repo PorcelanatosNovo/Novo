@@ -9,6 +9,7 @@ function Comprar() {
 
                 <li className='pb-2'> <span className='font-bold tracking-tight leading-tight pt-6 mb-6 underline text-center text-red-600'>Importante:</span> El precio publicado corresponde a 1m2.</li>
                 <li className='pb-2'>Si bien contamos con amplio stock en nuestro depósito, consulte  a un asesor comercial por medio de la mensajería, para confirmar que está disponible la mercadería que usted requiere.</li>
+                <li className='pb-2'>En las publicaciones con stock de 1m2/1u. consultar con un asesor, ya que contamos con stock permanente de los productos publicados.</li>
                 <li className='pb-2'>El horario de Atención es de lunes a viernes de 9 a 18.00hs y Sábados de 10 a 13.00hs.</li>
                 <li className='pb-2'>Nuestro Asesor le informara las distintas formas de pagos disponibles que usted tiene a disposición y  así poder  llegar a la mejor opción de compra.</li>
                 <li className='pb-2'>Medios de pagos: Transferencias, Link de Mercado Pago, Ahora 12 ( solo en el Showroom) , Efectivo ( consulte descuento).</li>

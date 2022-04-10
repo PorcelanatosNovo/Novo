@@ -150,7 +150,7 @@ export default function ContacForm() {
 					rounded
 					transition
 					ease-in-out
-					m-2
+					m-2 max-w-[500px]
 					focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none'
 					placeholder='Consulta'
 					rows='3'

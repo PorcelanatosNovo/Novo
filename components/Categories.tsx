@@ -20,21 +20,21 @@ const callouts = [
     {
       name: 'Porcelanatos y pisos',
       description: 'Porcelanatos',
-      imageSrc: '/porcelanato.jpg',
+      imageSrc: '/porcelanato.webp',
       imageAlt: 'Muestra de porcelanatos.',
       href: 'https://novoporcelanatos468381923.mercadoshops.com.ar/listado/pisos-paredes-aberturas-porcelanatos/',
     },
     {
       name: 'Cerámicas y paredes',
       description: 'Cerámicas',
-      imageSrc: '/ceramica.jpg',
+      imageSrc: '/ceramica.webp',
       imageAlt: 'Imagen de una cerámica.',
       href: 'https://novoporcelanatos468381923.mercadoshops.com.ar/listado/pisos-paredes-aberturas-ceramicas//',
     },
     {
       name: 'Mezclas Adhesivas para Pisos',
       description: 'Adhesivos',
-      imageSrc: '/adhesivos.jpg',
+      imageSrc: '/adhesivos.webp',
       imageAlt: 'Adheivos klaukol',
       href: 'https://novoporcelanatos468381923.mercadoshops.com.ar/listado/pisos-revestimientos-mezclas-adhesivas/',
     },
@@ -55,8 +55,8 @@ const callouts = [
                       src={callout.imageSrc}
                       alt={callout.imageAlt}
                       className="w-full h-full object-center object-cover"
-                      width={400}
-                      height={550}
+                      width={600}
+                      height={650}
                     />
                   </div>
                   <h3 className="mt-6 text-sm text-white">
