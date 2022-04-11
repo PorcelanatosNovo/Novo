@@ -23,7 +23,7 @@ function Cambios() {
         <li className='pb-2'>Cubrir las superficies instaladas para protegerlas hasta finalización de obra.</li>
         <li className='pb-2'>Utilizar para la limpieza cotidiana agua y detergente neutro. Evitar limpiadores que contengan cera, silicona u otros polímeros.</li>
         </ul>
-        <p className=' text-6xl font-bold w-full text-right pr-4 pb-4'><span className='text-red-600 '>novo</span> Porcelanatos</p>
+        <p className='text-xl font-bold w-full text-right pr-4 pb-4'><span className='text-red-600 text-6xl font-extrabold'>novo</span> Porcelanatos</p>
     </div>
   )
 }
