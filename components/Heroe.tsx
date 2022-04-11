@@ -13,7 +13,7 @@ function Heroe(router:any) {
         </div>
         <div className='lg:col-span-2'>
         <motion.div
-        className='mb-12 lg:mb-0 w-full  p-12'
+        className='mb-12 lg:mb-0 w-full p-4 lg:p-12'
       key={router.route}
       initial="initial"
       animate="animate"
@@ -33,7 +33,7 @@ function Heroe(router:any) {
           className="w-full rounded shadow-lg "
           alt="Showroom de novo porcelanatos"
           width={650}
-          height={350}
+          height={450}
         />
       </a>
       </motion.div>
