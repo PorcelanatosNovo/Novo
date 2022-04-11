@@ -20,7 +20,7 @@ function Comprar() {
                 <li className='pb-2'>Cuando se recepciona  la mercadería en la obra , se deberá contar con personal para la descarga .</li>
                 <li className='pb-2'>No realizamos envíos al interior del país, tampoco despachamos por ningún sistema de encomienda, transportes,  ni Mercado envíos. Si estas fuera del Área Metropolitana de Bs. As. (AMBA) tenes que contratar un expreso. </li>
             </ul>
-            <p className=' text-5xl font-bold w-full text-right pr-4 pb-4'><span className='text-red-600 text-6xl font-extrabold'>novo</span> Porcelanatos</p>
+            <p className=' text-7xl	 font-bold w-full text-right pr-4 pb-4'><span className='text-red-600 text-8xl font-extrabold'>novo</span> Porcelanatos</p>
         </div>
     )
 }
