@@ -37,7 +37,7 @@ export default function Navbar() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <Link href="/" passHref ><span className=" lg:hidden h-8 w-auto text-white flex"> <span className='text-red-600 '>novo</span> Porcelanatos<Image src="/logo4.png" className="mr-3 h-8" alt=" Logo" width={50} height={30}/></span></Link>
+                  <Link href="/" passHref ><span className=" lg:hidden h-8 w-auto text-white flex text-lg	"> <span className='text-red-600 text-xl '>novo</span> Porcelanatos<Image src="/logo4.png" className="mr-3 h-8" alt=" Logo" width={50} height={30}/></span></Link>
                  <Link  href="/" passHref><span className="hidden lg:block h-8 w-auto text-white hover:cursor-pointer"><Image src="/logo4.png" className="mr-3 h-8" alt=" Logo" width={50} height={30}/></span></Link>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
