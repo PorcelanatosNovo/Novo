@@ -5,11 +5,13 @@ import MetaHead from '../components/helpers/MetaHead'
 import Whatsapp from '../components/helpers/Whatsapp'
 import Footer from '../components/Footer'
 import { motion } from "framer-motion";
+import NextSEO from '../components/helpers/NextSEO'
 
 function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <>
     <MetaHead />
+    <NextSEO />
     <Whatsapp />
     <Navbar />
     <motion.div
