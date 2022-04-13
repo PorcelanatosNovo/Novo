@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
         strategy="afterInteractive" id="gtag-manager"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GTAG}`}
       />
-      <Script strategy="afterInteractive"  id="gtag">
+      <Script strategy="lazyOnload"  id="gtag">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
