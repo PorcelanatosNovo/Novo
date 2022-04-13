@@ -29,7 +29,7 @@ function Footer() {
 </ul>
 </div>
 <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"/>
-<span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <span className="hover:underline">novo Porcelanatos™</span>. Todos los derechos reservados.
+<span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <span className="hover:underline">novo Porcelanatos™</span>. Todos los derechos reservados. Web creada por <a href='https://nextfolio-three.vercel.app' target='blank' rel="noopener noreferrer" className="hover:underline">LastLightbringer™</a>. 
 </span>
 </footer>
 
