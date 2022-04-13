@@ -13,15 +13,15 @@ function MyApp({ Component, pageProps, router }: AppProps) {
     <>
     <Script
         strategy="afterInteractive" id="gtag-manager"
-        src="https://www.googletagmanager.com/gtag/js?id=G-9QELTX7FG8" async={true}
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GTAG}`} async={true}
       />
       <Script strategy="afterInteractive"  id="gtag">
-        {`
+      {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-        
-          gtag('config', 'G-9QELTX7FG8');
+
+          gtag('config', ${process.env.GTAG});
         `}
       </Script>
     <MetaHead />
