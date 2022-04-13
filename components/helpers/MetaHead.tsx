@@ -8,7 +8,7 @@ function MetaHead() {
     <meta name="description" content="Tienda de porcelanatos y ceramicas." />
     <meta name="title" content="novo Porcelanato"/>
 <meta name="description" content="Somos novo Porcelanato, la mejor elección para tu hogar."/>
-<meta name="keywords" content="novo Porcelanatos, porcelanatos, novo, porcelanatos, ceramicas, sanitarios, pisos, griferias, novo porcelanatos parque leloir, parque leloir porcelanatos, porcelanatos parque leloir,vite, alberdi"/>
+<meta name="keywords" content="novo Porcelanatos,porcelanatos leloir, porcelanatos, novo, porcelanatos, ceramicas, sanitarios, pisos, griferias, novo porcelanatos parque leloir, parque leloir porcelanatos, porcelanatos parque leloir,vite, alberdi"/>
 <meta name="robots" content="index, follow"/>
 <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta name="language" content="Spanish"/>
