@@ -6,10 +6,24 @@ import Whatsapp from '../components/helpers/Whatsapp'
 import Footer from '../components/Footer'
 import { motion } from "framer-motion";
 import NextSEO from '../components/helpers/NextSEO'
+import Script from "next/script";
 
 function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <>
+    <Script
+        strategy="afterInteractive" id="gtag-manager"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GTAG}`}
+      />
+      <Script strategy="afterInteractive"  id="gtag">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', ${process.env.GTAG});
+        `}
+      </Script>
     <MetaHead />
     <NextSEO />
     <Whatsapp />
