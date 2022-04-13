@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <>
    <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-PFRXGSP035 "
+         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GTAG_ID}`}
         strategy="afterInteractive"
       />
       <Script id="google-analytics" strategy="afterInteractive">
