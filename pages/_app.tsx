@@ -12,16 +12,16 @@ function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <>
     <Script
-        strategy="afterInteractive" id="gtag-manager"
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GTAG}`}
+        strategy="lazyOnload" id="gtag-manager"
+        src="https://www.googletagmanager.com/gtag/js?id=G-PFRXGSP035"
       />
-      <Script strategy="afterInteractive"  id="gtag">
+      <Script strategy="lazyOnload"  id="gtag" >
       {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-
-          gtag('config', ${process.env.GTAG});
+        
+          gtag('config', 'G-PFRXGSP035');
         `}
       </Script>
     <MetaHead />
