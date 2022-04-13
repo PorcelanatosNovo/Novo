@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <>
     <Script
-        strategy="afterInteractive" id="gtag-manager"
+        strategy="lazyOnload" id="gtag-manager"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GTAG}`}
       />
       <Script strategy="lazyOnload"  id="gtag">
