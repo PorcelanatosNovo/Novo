@@ -11,16 +11,16 @@ import Script from "next/script";
 function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <>
-    <Script
-        strategy="lazyOnload" id="gtag-manager"
-        src="https://www.googletagmanager.com/gtag/js?id=G-PFRXGSP035"
+   <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-PFRXGSP035 "
+        strategy="afterInteractive"
       />
-      <Script strategy="lazyOnload"  id="gtag" >
-      {`
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
           window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
+          function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
-        
+
           gtag('config', 'G-PFRXGSP035');
         `}
       </Script>
