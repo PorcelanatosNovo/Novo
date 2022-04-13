@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
     <>
     <Script
         strategy="afterInteractive" id="gtag-manager"
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GTAG}`} async={true}
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GTAG}`}
       />
       <Script strategy="afterInteractive"  id="gtag">
       {`
