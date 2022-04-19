@@ -30,7 +30,7 @@ function BrandCarousel() {
     autoPlay={true}
     autoPlaySpeed={1000}
     itemClass="carousel-item-padding-40-px"
-    containerClass="mb-10"
+    containerClass="mb-10 z-20"
     >
     <Image src="/vite.webp" width={200} height={200} alt="vite logo"/>
     <Image src="/alberdi.webp" width={200} height={200} alt="alberdi logo"/>
