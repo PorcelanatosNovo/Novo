@@ -29,6 +29,7 @@ function Hero() {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: .2 }}>
+                    
        <a href='https://novoporcelanatos468381923.mercadoshops.com.ar/' target="_blank" rel='noopener noreferrer'>
         <Image
           src="/construccion.jpeg"
@@ -38,6 +39,8 @@ function Hero() {
           height={450}
         />
       </a>
+      <a href="https://g.page/novo-porcelanatos?share" target='_blank' rel='noopener noreferrer'> <h1 className='relative z-10 font-semibold text-white uppercase text-lg  pb-2 text-center'><span className='text-red-600 font-bold text-xl underline'>Showroom:</span> Av. Pres. Perón 8545, Leloir</h1></a>
+                      <a href="tel:+54 9 11 5765-2651" target='_blank' rel='noopener noreferrer'><h2 className='relative z-10 font-semibold text-white uppercase text-lg pb-8 text-center'><span className='text-red-600 font-bold text-xl underline'>Teléfono:</span> 11 5765-2651</h2></a>
       </m.div>
 </LazyMotion>
        </div>

@@ -1,10 +1,9 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Disclosure } from '@headlessui/react'
-import { MenuIcon, XIcon } from '@heroicons/react/outline'
-import LinkP from './LinkP'
+import { MenuIcon, XIcon, PhoneOutgoingIcon, MapIcon } from '@heroicons/react/outline'
 import Image from 'next/image'
 import Link from 'next/link'
-
+import { useRouter } from "next/router";
 const navigation = [
   { name: 'Inicio', href: '/', current: true },
   { name: 'Nosotros', href: '/About', current: false },
@@ -17,9 +16,9 @@ function classNames(...classes: string[]) {
 }
 
 export default function Navbar() {
-
+  const router = useRouter();
   return (
-    <Disclosure as="nav" className="bg-black z-50 max-w-full ">
+    <Disclosure as="nav" className="bg-black z-50 max-w-full sticky top-0 ">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 ">
@@ -37,53 +36,54 @@ export default function Navbar() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <Link href="/" passHref ><span className=" lg:hidden h-8 w-auto text-white flex text-xl	items-center justify-center leading-none"> <span className='text-red-600 text-3xl h-8 font-bold'>novo</span> <span className=' h-8  flex items-end justify-center'>Porcelanatos</span><Image src="/logo4.png" className="mr-3 h-8" alt=" Logo" width={50} height={30}/></span></Link>
+                  <Link href="/" passHref ><span className='lg:hidden'><Image src="/logo4.png" className="mr-3 h-8 " alt=" Logo" width={50} height={30}/></span></Link>
                  <Link  href="/" passHref><span className="hidden lg:block h-8 w-auto text-white hover:cursor-pointer"><Image src="/logo4.png" className="mr-3 h-8" alt=" Logo" width={50} height={30}/></span></Link>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <LinkP key={item.name}
-                      href={item.href}>
-                      <a
-                      className={classNames(
-                        item.current ? ' text-gray-300 ' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                        'block px-3 py-2 rounded-md text-base font-medium'
-                      )}
+                      <Link key={item.name}
+                      href={item.href} passHref>
+                      <a 
+                      className={`block px-3 py-2 rounded-md text-base font-medium  ${
+                        router.asPath === item.href
+                          ? "text-red-600"
+                          : "text-gray-300 hover:bg-gray-700 hover:text-white"
+                      }`}
                       aria-current={item.current ? 'page' : undefined}
                       >
                         {item.name}
                       </a>
-                      </LinkP>
+                      </Link>
                     ))}
                   </div>
                 </div>
               </div>
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-               
-
-                {/* Profile dropdown */}
-                
-              </div>
+             <div>
+             <a href="tel:+54 9 11 5765-2651" target='_blank' rel='noopener noreferrer'><PhoneOutgoingIcon className="block lg:hidden h-6 w-6 m-2 text-white " aria-hidden="true" /></a>
+             <a href="https://g.page/novo-porcelanatos?share" target='_blank' rel='noopener noreferrer'><MapIcon className="lg:block hidden h-6 w-6 m-2 text-white hover:text-gray-400 transition-all" aria-hidden="true" /></a>
+             </div>
             </div>
           </div>
 
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
-                <LinkP  key={item.name} href={item.href}>
-                <a
-               
-                  
-                  className={classNames(
-                    item.current ? ' text-gray-300' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                    'block px-3 py-2 rounded-md text-base font-medium'
-                  )}
-                  aria-current={item.current ? 'page' : undefined}
-                >
-                  {item.name}
-                </a>
-                </LinkP>
+                 <Disclosure.Button key={item.name} className="flex flex-col w-full text-left border-t border-border-default">
+                 <Link key={item.name}
+                 href={item.href}>
+                 <a
+                 className={`block px-3 py-2 rounded-md text-base font-medium cursor-pointer text-white transition-all ${
+                  router.asPath === item.href
+                  ? "text-red-600"
+                  : "text-gray-300 hover:bg-gray-700 hover:text-white"
+              }`}
+                 aria-current={item.current ? 'page' : undefined}
+                 >
+                   {item.name}
+                 </a>
+                 </Link>
+               </Disclosure.Button>
               ))}
             </div>
           </Disclosure.Panel>
