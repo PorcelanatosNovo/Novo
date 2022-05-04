@@ -39,7 +39,7 @@ function Heroe(router:any) {
       
       </motion.div>
         </div>
-       <div className='lg:col-span-3 lg:grid lg:place-items-center  w-fit mx-auto mb-12 lg:mb-4'>
+       <div className='lg:col-span-3 lg:grid lg:place-items-center  w-3/4 lg:w-fit mx-auto mb-20 lg:mb-4'>
        <a href='https://walink.co/baa647' target='_blank' rel="noopener noreferrer" className='button button--neon hover:bg-[#dc2626] uppercase font-semibold lg:text-xl'><span className='animate-pulse'>Consultar por precios en efectivo</span></a>
        </div>
     </div>
