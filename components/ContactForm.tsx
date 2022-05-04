@@ -61,77 +61,24 @@ export default function ContacForm() {
 		}
 	}
 	return (
-		<div className='flex justify-center items-center flex-col '>
-			<form className='min-w-[75%] flex justify-center items-center form-group mb-6	 flex-col' onSubmit={(e) => onSubmitForm(e)}>
-			<label htmlFor="name" className='text-lg font-semibold'>Nombre</label>
-				<input
-					id='name'
-					type='text'
-					value={inputs.name}
-					onChange={handleChange}
-					className='form-control block
-					w-full
-					px-3
-					py-1.5
-					text-base
-					font-normal
-					text-gray-700
-					bg-white bg-clip-padding
-					border border-solid border-gray-300
-					rounded
-					transition
-					ease-in-out
-					m-2 max-w-[300px]
-					focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none'
-					placeholder='Nombre'
-					required
-				/>
-				<label htmlFor="email" className='text-lg font-semibold'>Correo electrónico</label>
-				<input
-					id='email'
-					type='email'
-					value={inputs.email}
-					onChange={handleChange}
-					className='form-control block
-					w-full
-					px-3
-					py-1.5
-					text-base
-					font-normal
-					text-gray-700
-					bg-white bg-clip-padding
-					border border-solid border-gray-300
-					rounded
-					transition
-					ease-in-out
-					m-2 max-w-[300px]
-					focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none'
-					placeholder='Correo electrónico'
-					required
-				/>
-				  <label htmlFor="phone" className='text-lg font-semibold'>Número de celular</label>
-					<input
-					id='phone'
-					type='tel'
-					value={inputs.phone}
-					onChange={handleChange}
-					className='form-control block
-					w-full
-					px-3
-					py-1.5
-					text-base
-					font-normal
-					text-gray-700
-					bg-white bg-clip-padding
-					border border-solid border-gray-300
-					rounded
-					transition
-					ease-in-out
-					m-2 max-w-[300px]
-					focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none'
-					placeholder='11-1111-1111' 
-					required
-				/>
+		<div className='flex justify-start items-center flex-col '>
+			<form className='h-full flex justify-center items-center form-group mb-6 border floating hover:floating-hv duration-300 focus-within:floating-hv border-solid border-black rounded-lg shadow-lg w-10/12 lg:w-4/6 p-4 flex-col bg-white text-black' onSubmit={(e) => onSubmitForm(e)}>
+
+   				 	<div className="relative z-0 w-full mb-6 group">
+       					 <input type="text" value={inputs.name} onChange={handleChange} name="name" id="name" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+        					<label htmlFor="name" className="peer-focus:font-medium absolute text-sm text-gray-500  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Nombre</label>
+    				</div>
+				
+				<div className="relative z-0 w-full mb-6 group">
+      				<input type="email" value={inputs.email} onChange={handleChange} name="email" id="email" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none  focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+      					<label htmlFor="email" className="peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Dirección de correo</label>
+     			</div>
+
+				  <div className="relative z-0 w-full mb-6 group">
+        				<input type="tel" pattern="[0-9]+" id='phone' value={inputs.phone} onChange={handleChange}  name="phone"  className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+        					<label htmlFor="phone" className="peer-focus:font-medium absolute text-sm text-gray-500  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Número de celular (11-1111-1111)</label>
+    			  </div>
+
 				  <label htmlFor="message" className='text-lg font-semibold'>Tu mensaje</label>
 				<textarea
 					id='message'
@@ -150,40 +97,19 @@ export default function ContacForm() {
 					rounded
 					transition
 					ease-in-out
-					m-2 max-w-[500px]
+					m-2 
 					focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none'
 					placeholder='Consulta'
 					rows='3'
 					required
 				/>
-				<input type='submit' className='w-full
-              px-6
-              py-2.5
-              bg-blue-600
-              text-white
-              font-medium
-              text-xs
-              leading-tight
-              uppercase
-              rounded
-              shadow-md
-              hover:bg-blue-700 hover:shadow-lg
-              focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
-              active:bg-blue-800 active:shadow-lg
-              transition
-              duration-150
-              ease-in-out
-			  m-2 
-			  cursor-pointer
-			  ' 
-			
-			  />
+				<input type='submit' className='py-2.5 px-5 mr-2 mb-2 cursor-pointer focus:outline-none bg-white rounded-lg border hover:border-black border-gray-300  focus:z-10 focus:ring-4 focus:ring-gray-200 whitespace-nowrap' />
 				{form.state === 'loading' ? (
-					<div>Enviando....</div>
+					<div className='break-normal'>Enviando....</div>
 				) : form.state === 'error' ? (
 					<div>{form.message}</div>
 				) : (
-					form.state === 'success' && <div className='text-green-600 text-xl font-semibold mb-4 text-center'>Su consulta ha sido enviada exitosamente!Pronto nos contactaremos con usted.</div>
+					form.state === 'success' && <div className='text-green-600 text-xl lg:w-11/12 text-center'>Su consulta ha sido enviada exitosamente, pronto nos contactaremos con usted.</div>
 				)}
 			</form>
 		</div>
