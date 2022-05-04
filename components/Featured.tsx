@@ -15,7 +15,7 @@ function Featured() {
         </div>
       </div>
       <div className="p-6">
-        <h5 className="text-lg font-semibold mb-4">Soporte 24/7</h5>
+        <h5 className="text-xl font-bold font-serif mb-4">Soporte 24/7</h5>
         <p>
           Podes dejar tu consulta las 24hs. del día, los 7 días de la semana y vamos a responderte lo antes posible.
         </p>
@@ -35,7 +35,7 @@ function Featured() {
         </div>
       </div>
       <div className="p-6">
-        <h5 className="text-lg font-semibold mb-4">Seguridad en tu compra</h5>
+        <h5 className="text-xl font-bold font-serif mb-4">Seguridad en tu compra</h5>
         <p>
          En todas tus compras te proporcionamos la seguridad de nuestros 25 años de experiencia.
         </p>
@@ -54,7 +54,7 @@ function Featured() {
         </div>
       </div>
       <div className="p-6">
-        <h5 className="text-lg font-semibold mb-4">Stock Permanente</h5>
+        <h5 className="text-xl font-bold font-serif mb-4">Stock Permanente</h5>
         <p>
           Siempre contamos con stock, para una entrega inmediata de lo que querés.
         </p>
