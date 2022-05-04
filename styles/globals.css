@@ -47,3 +47,56 @@ a {
         height: 500px;
       }
 
+      :root {
+        --clr-neon:#dc2626;
+        --clr-bg: #342E37;
+      }
+      .button {
+        padding: 0.5em 1.25em;
+        border-radius: 0.125em;
+        display: inline-block;
+      }
+      
+      .button--neon {
+        border: 0.125em solid var(--clr-neon);
+        position: relative;
+        color: var(--clr-neon);
+        background-color: transparent;
+        cursor: pointer;
+        text-shadow: 0 0 0.125em rgba(0, 0, 0, 0.5), 0 0 0.25em currentColor;
+        box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
+      }
+      .button--neon:hover {
+        color: var(--clr-bg);
+        text-shadow: none;
+      }
+      .button--neon:hover:after {
+        opacity: 1;
+      }
+      .button--neon:hover:before {
+        opacity: 1;
+      }
+      .button--neon:before, .button--neon:after {
+        content: "";
+        position: absolute;
+        transition: opacity 100ms linear;
+        background-color: var(--clr-neon);
+      }
+      .button--neon:before {
+        top: 120%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+        filter: blur(1em);
+        opacity: 0.5;
+      }
+      .button--neon:after {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        box-shadow: 0 0 0.75em 0.25em var(--clr-neon), 0 0 0.75em 1em var(--clr-bg);
+        opacity: 0;
+      }

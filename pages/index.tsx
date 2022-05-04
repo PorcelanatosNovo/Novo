@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Heroe from '../components/Heroe'
-
 import Categories from '../components/Categories'
 import Choose from '../components/Choose'
 import dynamic from 'next/dynamic'
