@@ -46,57 +46,40 @@ a {
   .map-container-2 {
         height: 500px;
       }
-
-      :root {
-        --clr-neon:#dc2626;
-        --clr-bg: #342E37;
+      .dual-btn-container{
+        text-align: center;
+        padding: 15px 0;
       }
-      .button {
-        padding: 0.5em 1.25em;
-        border-radius: 0.125em;
+      .dual-color-btn{
+        text-shadow: 2px 1px 3px #000000;
         display: inline-block;
-      }
-      
-      .button--neon {
-        border: 0.125em solid var(--clr-neon);
+        text-decoration: none;
+        padding: 15px 30px;
         position: relative;
-        color: var(--clr-neon);
-        background-color: transparent;
-        cursor: pointer;
-        text-shadow: 0 0 0.125em rgba(0, 0, 0, 0.5), 0 0 0.25em currentColor;
-        box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
+        overflow: hidden;
+        box-shadow:0px 6px 6px 0px rgba(0,0,0,0.15);
+        background-color: rgba(255,255,255,.05);
+        transition: all .3s;
       }
-      .button--neon:hover {
-        color: var(--clr-bg);
-        text-shadow: none;
-      }
-      .button--neon:hover:after {
-        opacity: 1;
-      }
-      .button--neon:hover:before {
-        opacity: 1;
-      }
-      .button--neon:before, .button--neon:after {
-        content: "";
+      .dual-color-btn:hover{  
+        transform: scale(1.05);
+      }.shine-hope-anim:after{ 
+        content: '';
         position: absolute;
-        transition: opacity 100ms linear;
-        background-color: var(--clr-neon);
-      }
-      .button--neon:before {
-        top: 90%;
-        left: 0;
+        display: block;
+        top: 0;
+        left: -100%;
         width: 100%;
         height: 100%;
-        transform: perspective(1em) rotateX(40deg) scale(0.75, 0.3);
-        filter: blur(1em);
-        opacity: 0.5;
+        background: linear-gradient(90deg, transparent, rgba(255,255,255,.4), transparent);
+        animation: ShineAnim 5s ease infinite;
+        animation-delay: 2s;
       }
-      .button--neon:after {
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        z-index: -1;
-        box-shadow: 0 0 0.75em 0.25em var(--clr-neon), 0 0 0.75em 1em var(--clr-bg);
-        opacity: 0;
+      @keyframes ShineAnim{
+        0%{left: -100%}
+        10%{left: 100%}
+        100%{left: 100%}
+      }
+      .bgbtn{
+        background: linear-gradient(to right, #363636 50%, #303030 50%);
       }
