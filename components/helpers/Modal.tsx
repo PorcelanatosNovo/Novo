@@ -25,7 +25,7 @@ export default function Modal() {
         </Transition.Child>
 
         <div className="fixed z-10 inset-0 overflow-y-auto">
-          <div className="flex items-center sm:items-center justify-center min-h-full p-4 text-center sm:p-0">
+          <div className="flex mt-8 lg:mt-16 items-center sm:items-center justify-center min-h-full p-4 text-center sm:p-0">
             <Transition.Child
               as={Fragment}
               enter="ease-out duration-300"
@@ -35,8 +35,8 @@ export default function Modal() {
               leaveFrom="opacity-100 translate-y-0 sm:scale-100"
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
-              <Dialog.Panel className="relative bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:max-w-lg sm:w-full">
-                <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+              <Dialog.Panel className="relative  bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:max-w-lg sm:w-full">
+                <div className="bg-white  px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
                   <div className="sm:flex sm:items-start">
                     {/* <div className="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-red-100 sm:mx-0 sm:h-10 sm:w-10">
                       <ExclamationIcon className="h-6 w-6 text-red-600" aria-hidden="true" />
@@ -50,8 +50,8 @@ export default function Modal() {
                         Estamos armando nuevamente las exhibiciones y <b>YA</b> podés encontrarnos en <b>Pte Perón 8808 , Ituzaingó </b>  (colectora Acceso Oeste mano a Morón).  Esquina Cerrito.
                         <br />
                         <b className='text-center w-full block text-lg text-black'>EXHIBICIONES EN CONSTRUCCIÓN</b>
-                        <a href="tel:+541157652651"><b className='text-center w-full block text-xl text-red-600  shine-hope-anim'>VENTAS PRINCIPALMENTE ONLINE</b></a>
-                        <a href="https://goo.gl/maps/6aEVZb3eU2CnMcBDA" target='_blank' rel='noreferrer noopener' >
+                        <a href="tel:+541157652651" className='text-center w-full block text-xl text-red-600 font-extrabold shine-hope-anim' tabIndex={-1}>VENTAS PRINCIPALMENTE ONLINE</a>
+                        <a href="https://goo.gl/maps/6aEVZb3eU2CnMcBDA" target='_blank' rel='noreferrer noopener'  tabIndex={-1}>
                         <Image
                           src="/nuevofrente.jpeg"
                           alt="Picture of the author"
@@ -59,7 +59,7 @@ export default function Modal() {
                           height={400}
                         />
                         </a>
-                        <br />  Podes comunicarte con nosotros al <a href="tel:+541157652651" className='font-bold'>11-5765-2651</a>
+                        <br />  Podes comunicarte con nosotros al <a href="tel:+541157652651" className='font-bold'  tabIndex={1}>11-5765-2651</a>
                         </p>
                       </div>
                     </div>
