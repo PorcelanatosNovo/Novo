@@ -54,14 +54,14 @@ function ContactBanner() {
                 </div>
                 <div className="grow ml-6">
                   <p className="font-bold mb-1">Showroom</p>
-                  <a  href="https://g.page/novo-porcelanatos?share" target='_blank' rel='noopener noreferrer' ><p className=" text-stone-200 flex items-center hover:text-stone-400 ease-in-out duration-300 whitespace-nowrap	">Av. Pres. Perón 8545, Leloir.<MapIcon className="block h-4 w-4" /></p></a>
+                  <a  href="https://goo.gl/maps/6aEVZb3eU2CnMcBDA" target='_blank' rel='noopener noreferrer' ><p className=" text-stone-200 flex items-center hover:text-stone-400 ease-in-out duration-300 whitespace-nowrap	">Av. Pres. Perón 8808, Ituzaingó.<MapIcon className="block h-4 w-4" /></p></a>
                   <a href="tel:+54 9 11 5765-2651" target='_blank' rel='noopener noreferrer'><p className="text-stone-200 hover:text-stone-400 ease-in-out duration-300 flex items-center">+54 9 11 5765-2651<PhoneOutgoingIcon  className='block h-4 w-4'/></p></a>
                 </div>
               </div>
             </div>
         </div>
           <div className="map-container-2 w-full">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.043711018811!2d-58.69177414878299!3d-34.62833566621303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbf00f7b0d78b%3A0xab48bb0b721de82b!2sAv.%20Pres.%20Per%C3%B3n%208545%2C%20Udaondo%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1649367700708!5m2!1ses!2sar" className="left-0 top-0 h-full w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" frameBorder="0" allowFullScreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1160.7201346004497!2d-58.696699714334436!3d-34.629129131931876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbfab6556d74f%3A0xd52beafb332c9588!2sAv.%20Pres.%20Per%C3%B3n%208808%2C%20B1714ARC%20Ituzaing%C3%B3%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1657813556768!5m2!1ses-419!2sar" className="left-0 top-0 h-full w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" frameBorder="0" allowFullScreen></iframe>
           </div>
         
       </div>

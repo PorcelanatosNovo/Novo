@@ -8,7 +8,7 @@ function Contact() {
    <div className=' w-screen	bg-[url("/marbel.webp")]  text-white max-w-full'>
       <div className='max-w-[90%] m-auto'> 
       <h1 className='text-5xl font-bold tracking-tight leading-tight pt-12 mb-12 text-center	 '>Contacto</h1>
-      <p className='text-xl font-bold mb-4 text-center'>Visitá nuestro <a href="https://goo.gl/maps/miEBu5aWYMdr1Swd9" rel='noopener noreferrer' target='_blank' className='text-red-600 uppercase'>showroom</a> y no te pierdas las últimas novedades en nuestras redes sociales.</p>
+      <p className='text-xl font-bold mb-4 text-center'>Visitá nuestro <a href="https://goo.gl/maps/6aEVZb3eU2CnMcBDA" rel='noopener noreferrer' target='_blank' className='text-red-600 uppercase'>showroom</a> y no te pierdas las últimas novedades en nuestras redes sociales.</p>
       <ContactBanner />
       
       

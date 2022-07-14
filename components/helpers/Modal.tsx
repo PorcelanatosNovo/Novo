@@ -2,6 +2,7 @@
 import { Fragment, useRef, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { ExclamationIcon } from '@heroicons/react/outline'
+import Image from 'next/image'
 
 export default function Modal() {
   const [open, setOpen] = useState(true)
@@ -37,16 +38,27 @@ export default function Modal() {
               <Dialog.Panel className="relative bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:max-w-lg sm:w-full">
                 <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
                   <div className="sm:flex sm:items-start">
-                    <div className="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-red-100 sm:mx-0 sm:h-10 sm:w-10">
+                    {/* <div className="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-red-100 sm:mx-0 sm:h-10 sm:w-10">
                       <ExclamationIcon className="h-6 w-6 text-red-600" aria-hidden="true" />
-                    </div>
+                    </div> */}
                     <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
-                      <Dialog.Title as="h3" className="text-lg leading-6 font-medium text-gray-900">
-                        NOS ESTAMOS MUDANDO!
+                      <Dialog.Title as="h3" className="text-3xl text-center leading-6 font-extrabold text-red-600">
+                       NOS MUDAMOS!
                       </Dialog.Title>
                       <div className="mt-2">
-                        <p className="text-sm text-gray-500">
-                          Estamos cambiando de ubicación y <b>pronto</b> podrás encontrarnos en <b>Pte Perón 8808 , Ituzaingó </b>  (colectora Acceso Oeste mano a Morón).  Esquina Cerrito.
+                        <p className="text-lg text-gray-500">
+                        Estamos armando nuevamente las exhibiciones y <b>YA</b> podés encontrarnos en <b>Pte Perón 8808 , Ituzaingó </b>  (colectora Acceso Oeste mano a Morón).  Esquina Cerrito.
+                        <br />
+                        <b className='text-center w-full block text-lg text-black'>EXHIBICIONES EN CONSTRUCCIÓN</b>
+                        <a href="tel:+541157652651"><b className='text-center w-full block text-xl text-red-600  shine-hope-anim'>VENTAS PRINCIPALMENTE ONLINE</b></a>
+                        <a href="https://goo.gl/maps/6aEVZb3eU2CnMcBDA" target='_blank' rel='noreferrer noopener' >
+                        <Image
+                          src="/nuevofrente.jpeg"
+                          alt="Picture of the author"
+                          width={500}
+                          height={400}
+                        />
+                        </a>
                         <br />  Podes comunicarte con nosotros al <a href="tel:+541157652651" className='font-bold'>11-5765-2651</a>
                         </p>
                       </div>
@@ -56,7 +68,7 @@ export default function Modal() {
                 <div className="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
                   <button
                     type="button"
-                    className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-red-600 text-base font-medium text-white hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm"
+                    className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-red-600 text-base font-medium text-white hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3  sm:text-sm"
                     onClick={() => setOpen(false)}
                   >
                     ENTENDIDO

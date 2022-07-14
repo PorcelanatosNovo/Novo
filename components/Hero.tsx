@@ -39,14 +39,15 @@ function Hero() {
           height={450}
         />
       </a>
-      <a href="https://g.page/novo-porcelanatos?share" target='_blank' rel='noopener noreferrer'> <h1 className='relative z-10 font-semibold text-white uppercase text-lg  pb-2 text-center'><span className='text-red-600 font-bold text-xl underline'>Showroom:</span> Av. Pres. Perón 8545, Leloir</h1></a>
-                      <a href="tel:+54 9 11 5765-2651" target='_blank' rel='noopener noreferrer'><h2 className='relative z-10 font-semibold text-white uppercase text-lg pb-8 text-center'><span className='text-red-600 font-bold text-xl underline'>Teléfono:</span> 11 5765-2651</h2></a>
+      <a href="https://g.page/novo-porcelanatos?share" target='_blank' rel='noopener noreferrer'> <h1 className='relative z-10 font-semibold text-white uppercase text-lg  pb-2 text-center'><span className='text-red-600 font-bold text-xl underline'>Showroom:</span>Av. Pres. Perón 8808, Ituzaingó</h1></a>
+      <h2 className='relative z-10 font-semibold text-white uppercase text-lg  pb-2 text-center'><span className='text-red-600 font-bold text-xl underline'>Retiro de mercadería:</span> San Justo, La Matanza</h2>
+                      <a href="tel:+54 9 11 5765-2651" target='_blank' rel='noopener noreferrer'><h3 className='relative z-10 font-semibold text-white uppercase text-lg pb-8 text-center'><span className='text-red-600 font-bold text-xl underline'>Teléfono:</span> 11 5765-2651</h3></a>
       </m.div>
 </LazyMotion>
        </div>
 
        <div className="dual-btn-container w-11/12 lg:w-3/4 mx-auto lg:col-span-2 lg:grid lg:place-items-center">
-  <a href="https://walink.co/baa647" target="_blank" rel="noopener noreferrer" className="dual-color-btn shine-hope-anim bgbtn w-full uppercase font-bold text-red-600 text-xl lg:text-2xl"><span className='animate-pulse hover:animate-none'>Consultar por precios en efectivo</span></a>
+  <a href="https://walink.co/baa647" target="_blank" rel="noopener noreferrer" className="dual-color-btn shine-hope-anim bgbtn w-full uppercase font-bold text-red-600 text-xl lg:text-2xl"><span className='animate-pulse hover:animate-none'>Esperamos tu consulta, escribinos!</span></a>
 </div>
 
     </div>
