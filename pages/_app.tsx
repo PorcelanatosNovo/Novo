@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <>
    <Script
-         src={`https://www.googletagmanager.com/gtag/js?id=G-PFRXGSP035`}
+         src={`https://www.googletagmanager.com/gtag/js?id=G-MYVD5YGMGX`}
         strategy="afterInteractive"
       />
       <Script id="google-analytics" strategy="afterInteractive">
@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-PFRXGSP035');
+          gtag('config', 'G-MYVD5YGMGX');
         `}
       </Script>
     <MetaHead />
