@@ -49,7 +49,7 @@ export default function Modal() {
                         <p className="text-lg text-gray-500 ">
                         Todos los productos publicados cuentan con <b>stock</b> (aunque aparezcan 1m<sup>2</sup> ).  
                         <br />
-                        <p>Los <b>precios publicados</b> son de Contado / <b>EfectivoX</b>. </p>
+                        <p>Los <b>precios publicados</b> son de Contado / <b>EfectivoX</b> y Transferencia CVU. </p>
                         {/* <a href="https://goo.gl/maps/6aEVZb3eU2CnMcBDA" target='_blank' rel='noreferrer noopener'  tabIndex={-1}>
                         <Image
                           src="/nuevo.jpeg"
